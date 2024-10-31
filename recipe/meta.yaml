@@ -26,8 +26,6 @@ requirements:
     - cmake
     - make  # [not win]
     - ninja  # [win]
-  run:
-    - m2w64-libwinpthread-git  # [win]
 
 test:
   commands:
