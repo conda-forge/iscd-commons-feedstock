@@ -22,10 +22,9 @@ requirements:
       - {{ stdlib("c") }}    # [not win]
       - {{ compiler('m2w64_c') }}  # [win]
       - {{ stdlib("m2w64_c") }}    # [win]
-  host:
-    - cmake
-    - make  # [not win]
-    - ninja  # [win]
+      - cmake
+      - make  # [not win]
+      - ninja  # [win]
 
 test:
   commands:
